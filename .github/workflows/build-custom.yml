@@ -64,7 +64,7 @@ jobs:
       - name: Install build dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y make gcc xxd python-is-python3 libjson-c-dev zlib1g-dev
+          sudo apt-get install -y make gcc xxd python-is-python3 libjson-c-dev zlib1g-dev libboost-graph-dev libboost-dev libtreedec-dev libu8ident-dev
 
       # sdcc 必须 >=4.5，从官方 SourceForge 下载 4.5.0 预编译包（与本地验证一致）
       - name: Install SDCC 4.5 (8051 compiler)
