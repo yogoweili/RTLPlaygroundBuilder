@@ -80,7 +80,7 @@ jobs:
       - name: Checkout upstream RTLPlayground/firmware
         uses: actions/checkout@v6
         with:
-          repository: logicog/RTLPlayground
+          repository: RTLPlayground/firmware
           ref: ${{ inputs.ref || '' }}
           path: RTLPlayground
 
