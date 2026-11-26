@@ -77,7 +77,7 @@ jobs:
           sdcc --version | head -1
 
       # 直接从原作者仓库拉取最新代码，拉到 RTLPlayground/ 子目录
-      - name: Checkout upstream logicog/RTLPlayground
+      - name: Checkout upstream RTLPlayground/firmware
         uses: actions/checkout@v6
         with:
           repository: logicog/RTLPlayground
