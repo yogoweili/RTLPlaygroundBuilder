@@ -11,7 +11,7 @@ on:
           设备型号 MACHINE（machine/ 目录下的 .c 文件名）。
           多个机型用空格分隔，如 "FG_8GT_1SX DEFAULT_8C_1SFP"；填 all 则编译全部机型。
         required: true
-        default: 'FG_8GT_1SX'
+        default: 'RUIYING_RY_8GT_1SX'
       ip:
         description: 预置交换机 IP（可选，如 192.168.10.247）
         required: false
